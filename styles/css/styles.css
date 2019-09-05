@@ -1,0 +1,132 @@
+.text-color__defaut {
+  color: #9b9b9b;
+}
+
+.elan {
+  color: #77cc44;
+}
+
+.limbo {
+  color: #4623c7;
+}
+
+.ether {
+  color: #cceeff;
+}
+
+.volcano {
+  color: #991111;
+}
+
+.event {
+  color: #f497ff;
+}
+
+.earthelves {
+  color: #117499;
+}
+
+.zi {
+  color: #886600;
+}
+
+.mountains {
+  color: #00b04b;
+}
+
+.agat {
+  color: #ff0000;
+}
+
+.desert {
+  color: #ffc800;
+}
+
+.ddd {
+  color: #5b1199;
+}
+
+.container-img {
+  position: absolute;
+  top: 305px;
+  left: 0;
+}
+
+.info-img {
+  position: absolute;
+  top: 305px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.swipe-img {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 128px;
+  height: 128px;
+  z-index: 1;
+}
+
+body {
+  background-color: #222b35;
+  padding: 0 10px;
+}
+
+span {
+  font-family: 'Roboto', sans-serif;
+}
+
+.time-days {
+  font-size: .9rem;
+  text-transform: lowercase;
+}
+
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 200px;
+  max-width: 585px;
+  min-height: 298px;
+  margin: 10px auto;
+  background-color: #8497b0;
+  border: 1px solid #8497b0;
+  border-radius: 3px;
+}
+
+.header {
+  height: 21px;
+  width: 70px;
+}
+
+.cell {
+  margin: 2px 1px;
+  border: 1px solid #8497b0;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #222b35;
+  text-transform: uppercase;
+}
+
+.cell:not(.header) {
+  height: 40px;
+  width: 70px;
+  padding: 10px 0 10px 0;
+}
+
+.hours-wrapper {
+  padding-right: 2px;
+  border-right: 3px solid #8497b0;
+}
+
+.days-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+}
+/*# sourceMappingURL=styles.css.map */
