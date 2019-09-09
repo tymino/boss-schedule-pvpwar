@@ -42,7 +42,7 @@ for (let i = 0; i < time.length; i++) {
   }
 
   if (num < 10) {
-    time[i].innerHTML = `0${num}:00`;
+    time[i].innerHTML = `${num}:00`;
   } else {
     time[i].innerHTML = `${num}:00`;
   }

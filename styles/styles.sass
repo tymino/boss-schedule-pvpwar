@@ -1,0 +1,56 @@
+@import colors
+@import images
+
+body
+  background-color: $colorBackCell
+  padding: 0 10px
+
+span
+  font-family: 'Roboto', sans-serif
+
+
+.time-days
+  font-size: .9rem
+  text-transform: lowercase
+
+.container
+  position: relative
+  display: flex
+
+  min-width: 200px
+  max-width: 585px
+  min-height: 298px
+
+  margin: 10px auto
+
+  background-color: $colorBorderCell
+  border: 1px solid $colorBorderCell
+  border-radius: 3px
+
+.header
+  height: 21px
+  width: 70px
+.cell
+  margin: 2px 1px
+
+  border: 1px solid $colorBorderCell
+  border-radius: 5px
+  text-align: center
+
+  background-color: $colorBackCell
+
+  text-transform: uppercase
+
+.cell:not(.header)
+  height: 40px
+  width: 70px
+  padding: 10px 0 10px 0
+
+.hours-wrapper
+  padding-right: 2px
+  border-right: 3px solid $colorBorderCell
+
+.days-wrapper
+  display: flex
+
+  overflow-y: hidden
